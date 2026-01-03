@@ -32,18 +32,14 @@ In addition, the Android version offers:
 ---
 
 ## 📸 Screenshots
+![Screenshot_20260103-000843](https://github.com/user-attachments/assets/01522ac1-8bde-4db0-a86f-87ce7e206018)
+![Screenshot_20260103-000846](https://github.com/user-attachments/assets/2551a241-d258-47fe-b444-6bf11992fe53)
+![Screenshot_20260103-000902](https://github.com/user-attachments/assets/1b803485-9199-4d24-bbdb-c691b0748cdb)
+![Screenshot_20260103-000914](https://github.com/user-attachments/assets/43b67621-3ba8-4d0d-a803-c556196fb2eb)
+![Screenshot_20260103-000916](https://github.com/user-attachments/assets/ca0fdaa4-eca5-4a6a-aeb0-36372376d6bc)
+![Screenshot_20260103-000920](https://github.com/user-attachments/assets/25fb478a-2b97-42da-8587-394ba483eaa0)
+![Screenshot_20260103-000926](https://github.com/user-attachments/assets/a7379ba7-6e1f-468e-b365-b9e4d730842b)
 
-*(Asitti, suuraawwan appilikeeshinichaa bilbila irratti yeroo hojjetu agarsiisan kaa'i)*
-
-| Welcome Screen | Session Selection |
-| :---: | :---: |
-| ![App Welcome]([YOUR_APP_SCREENSHOT_URL_1]) | ![App Session]([YOUR_APP_SCREENSHOT_URL_2]) |
-
-| Main Entry Screen (Dark Mode) | Side Menu |
-| :---: | :---: |
-| ![App Main Dark]([YOUR_APP_SCREENSHOT_URL_3]) | ![App Side Menu]([YOUR_APP_SCREENSHOT_URL_4]) |
-
----
 
 ## 🛠️ Technology Stack
 
