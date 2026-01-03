@@ -1,33 +1,31 @@
-# BHU Student Cafeteria System (Android App) 📱
+# BHU Student Cafeteria System ☕
 
-This is the official Android application for the **BHU Student Cafeteria System**. It provides a native mobile experience by wrapping the core web application in a highly optimized Android `WebView`.
+**A modern, offline-first, and server-connected solution designed to eliminate fraud and streamline meal services at Bule Hora University.**
 
-The primary goal of this app is to provide cafeteria operators with a dedicated, easy-to-distribute, and reliable tool that works seamlessly on their Android devices, ensuring all features of the web system are accessible in a familiar app format.
+This project transitions the university's manual, paper-based system into a fast, reliable, and fair digital application that works seamlessly on any Android device, even during power and internet outages.
 
 ---
 
 ## 🌟 About The Developer
 
-This project was developed by **Biruk Tadesse**, a Computer Science and Engineering (CSE) student with a passion for creating impactful software solutions. This Android wrapper is a demonstration of my skills in mobile development and my ability to integrate web technologies into a native mobile environment.
+This project was conceived and developed by **Biruk Tadesse**, a passionate and detail-oriented **Computer Science and Engineering (CSE) student**.
 
-> My focus is on delivering complete, end-to-end solutions. While the core logic of this system resides in the web application, creating this native Android shell showcases my versatility and understanding of the mobile ecosystem, from project setup in Android Studio to generating a distributable, signed APK.
+> As a developer, I specialize in creating practical, user-centric solutions to real-world problems. My expertise lies in both **web and mobile application development**, with a strong focus on building responsive, efficient, and robust systems from the ground up. This project showcases my ability to handle front-end design (HTML/CSS), complex client-side logic (JavaScript), and backend integration with modern cloud services like Firebase. I am driven by the challenge of turning complex requirements into simple, elegant, and functional software.
 
 ---
 
-## ✨ Core Features
+## ✨ Key Features
 
-This Android app inherits all the powerful features of the core web application, including:
+This isn't just a simple logging app; it's a comprehensive system built for reliability and efficiency.
 
--   **🚀 Real-time, Multi-User Synchronization** via Firebase Firestore.
--   **🔌 100% Offline-First Capability** with automatic data syncing.
--   **🌍 Full Multi-Language Support** (English, Afaan Oromoo, Amharic).
--   **🎨 Modern UI/UX** with Dark Mode and responsive design.
--   **🔊 Sound and Vibration Feedback** for critical user actions.
-
-In addition, the Android version offers:
--   **Dedicated App Experience:** No need to open a browser; the system is always one tap away.
--   **Full Screen Immersion:** The app hides the browser UI for a clean, focused interface.
--   **Easy Distribution:** The generated `.apk` file can be easily shared among operators via Xender, Bluetooth, or other file-sharing methods.
+-   **🚀 Real-time Synchronization:** Powered by **Google Firebase (Firestore)**, multiple operators can work on different devices simultaneously. All data is instantly synced to a central server, making it **impossible for a student to eat twice** at different entry points.
+-   **🔌 100% Offline-First Functionality:** The app remains fully operational during network outages. All entries are securely saved on the device and automatically synchronized with the server the moment connectivity is restored.
+-   **🌍 Multi-Language Support:** A fully translated interface provides native support for **English, Afaan Oromoo, and Amharic**.
+-   **🎨 Modern & Responsive UI/UX:**
+    -   **Dynamic Theming:** Switch between **Light Mode** and **Dark Mode** for comfortable viewing in any environment.
+    -   **Auditory & Haptic Feedback:** The app provides sound and vibration alerts for successful entries and re-eating attempts, ensuring operators are always aware of the status.
+    -   **Intuitive Design:** Features emoji-rich buttons and a clean layout that is fully responsive and works beautifully on any mobile screen size.
+-   **🔧 Cross-Platform & Maintainable:** The core is a powerful web application (`HTML`, `CSS`, `JavaScript`) wrapped in an Android `WebView`, making future updates and maintenance incredibly simple.
 
 ---
 
@@ -43,48 +41,37 @@ In addition, the Android version offers:
 
 ## 🛠️ Technology Stack
 
--   **Core Platform:** Android (Java)
--   **Rendering Engine:** Android `WebView`
--   **Web Technologies:** The app renders the web project built with HTML5, CSS3, and Vanilla JavaScript.
--   **Development Environment:** Android Studio
--   **Version Control:** Git & GitHub
+This project was built using a modern and efficient technology stack:
+
+*   **Frontend:** HTML5, CSS3 (with CSS Variables for theming), Vanilla JavaScript (ES6+)
+*   **Backend & Real-time Database:** Google Firebase (Firestore)
+*   **Android Wrapper:** Android Studio (Java & WebView)
+*   **Version Control:** Git & GitHub
 
 ---
 
-## 🚀 How to Build and Run
+## 🚀 Getting Started
 
-Follow these steps to build the Android application from the source code.
+There are two ways to use this project: as a web application or as an Android app.
 
-1.  **Prerequisites:**
-    -   [Android Studio](https://developer.android.com/studio) (latest stable version recommended).
-    -   An Android device or emulator running API 24 or higher.
+### 1. Running the Web Application
 
-2.  **Clone the Repository:**
+1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/birru2217/bhu-cafeteria-android-app.git
+    git clone https://github.com/birru2217/bhu-cafeteria-website.git
     ```
+2.  **Navigate to the folder:**
+    ```sh
+    cd bhu-cafeteria-website
+    ```
+3.  **Open `index.html`** in your favorite web browser. That's it!
 
-3.  **Open in Android Studio:**
-    -   Launch Android Studio.
-    -   Select **"Open an existing Project"** and navigate to the cloned `bhu-cafeteria-android-app` folder.
+### 2. Building the Android App (`.apk`)
 
-4.  **Sync Gradle:**
-    -   Allow Android Studio a few minutes to sync the project and download the required Gradle dependencies.
-
-5.  **Generate a Signed APK for Distribution:**
-    -   Go to **Build > Generate Signed Bundle / APK...**.
-    -   Select **APK**.
-    -   Choose your `keystore` (or create a new one).
-    -   Select the **`release`** build variant.
-    -   Click **Finish**.
-    -   The final, shareable `app-release.apk` will be located in the `app/release` folder.
-
----
-
-## 🔗 Related Project: The Core Web Application
-
-This Android app is a wrapper for the core web project. All the client-side logic and UI are managed in the web repository.
-
-➡️ **[View the Web Application Repository Here](https://github.com/birru2217/bhu-cafeteria-website)**
+1.  **Prerequisites:** You must have [Android Studio](https://developer.android.com/studio) installed.
+2.  **Clone the `android-app` repository** (or download the ZIP).
+3.  **Open the project** in Android Studio.
+4.  Let Gradle sync all the dependencies.
+5.  Go to **Build > Generate Signed Bundle / APK...** and follow the steps to create a distributable `app-release.apk` file.
 
 ---
